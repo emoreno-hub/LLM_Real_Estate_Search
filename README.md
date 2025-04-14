@@ -20,6 +20,11 @@ To achieve this, the project utilizes LangChain and ChromaDB:
 - Realtor GPT connects with **ChromaDB**, a vector databases where all available property listings are stored.
 - The system generates and stores vector embeddings for each listing, enabling semantic search that considers deeper aspects like neighborhood vibes, architectural styles, and proximity to specific amenities..
 
+### Streamlit App
+The user interface is built with Streamlit to make the experience interactive. Buyers enter their preferences and the app displays listings with AI-enhanced descriptions that are written in real-time to emphasize features most relevant to the buyer.
+![StreamlitApp](app_screenshot.PNG)
+![StreamlitApp](app_screenshot2.PNG)
+
 ### Personalized Listing Description Generation
 
 - Each generated real estate listing follows a structured listing template, ensuring consistency in details such as price, bedrooms, and neighborhood descriptions. The listing template is as follows:
