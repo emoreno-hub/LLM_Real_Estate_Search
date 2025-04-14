@@ -43,34 +43,40 @@ Neighborhood Description: [A brief summary of the surrounding neighborhood, incl
 - Output the personalized listing(s) as a text description of the listing.
 
 ## How to execute
+This project supports both Docker-based and manual setup. The recommended method is using Docker for a consistent and portable environment.
 
 1 - Clone this repository
 ```bash
 https://github.com/emoreno-hub/Realtor_GPT.git
 ```
 
-2 - Create the virtual environment
+2 - Create a .env file
+```bash
+OPENAI_API_KEY = 'YOUR API KEY'
+```
+
+3 - Build and run the Streamlit app
+```bash
+docker-compose up --build
+```
+
+#### Option 2: Manual Python Setup
+1 - Clone a virtual environment
 
 ```bash
 conda create --name agent --python==3.9.18
 ```
 
-This step uses [Anaconda](https://www.anaconda.com/) as the environment manager, but feel free to use another one of your choice.
-
-3 - Install the requirements
+2 - Install the requirements
 
 ```bash
-pip install -r requirements.txt
+pip install -r app/requirements.txt
 ```
 
-
-**Important**: You need to put your OpenAI key in the first cell to run the notebook.
-
-```python
-# Environment variables
+3 - Create a .env file
+```bash
 OPENAI_API_KEY = 'YOUR API KEY'
 ```
-It is highly recommended to use GPU to execute the code.
 
 ## Author
 **Eric Moreno**
