@@ -22,6 +22,8 @@ To achieve this, the project utilizes LangChain and ChromaDB:
 
 ### Streamlit App
 The user interface is built with Streamlit to make the experience interactive. Buyers enter their preferences and the app displays listings with AI-enhanced descriptions that are written in real-time to emphasize features most relevant to the buyer.
+
+
 <img src="app_screenshot.PNG" alt="Streamlit app screenshot" width="50%">
 
 ### Personalized Listing Description Generation
