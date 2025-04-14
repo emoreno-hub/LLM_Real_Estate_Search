@@ -45,6 +45,7 @@ Neighborhood Description: [A brief summary of the surrounding neighborhood, incl
 ## How to execute
 This project supports both Docker-based and manual setup. The recommended method is using Docker for a consistent and portable environment.
 
+### Option 1: Run with Docker (Recommended)
 1 - Clone this repository
 ```bash
 https://github.com/emoreno-hub/Realtor_GPT.git
@@ -60,7 +61,7 @@ OPENAI_API_KEY = 'YOUR API KEY'
 docker-compose up --build
 ```
 
-#### Option 2: Manual Python Setup
+### Option 2: Manual Python Setup
 1 - Clone a virtual environment
 
 ```bash
