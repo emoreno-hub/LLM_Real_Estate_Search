@@ -1,4 +1,4 @@
-# RealtorGPT
+# LLM Real Estate Search
 ### Smarter home search through AI-driven personalization
 I built this project to explore how AI can make the property search experience more personalized and meaningful for buyers. By combining large language models (LLMs) with vector databases, the app transforms standard real estate listings into tailored narratives that align with each buyer’s unique preferences and lifestyle. The goal is to move beyond basic filters and create a smarter, more engaging home search powered by semantic understanding.
 
